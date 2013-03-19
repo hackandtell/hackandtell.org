@@ -13,6 +13,21 @@
   }
 }
 
+@keyframes blink {
+  0% {
+   color: #fff;
+  }
+  25% {
+   color: #fff;
+  }
+  50% {
+   color: #aa0000;
+  }
+  100% {
+    color: #fff;
+  }
+}
+
 body {
 /* font-size: 62.5%;*/
  font-family: Liberation Serif, Times;
@@ -38,6 +53,10 @@ body {
  -webkit-animation-duration: 1s;
  -webkit-animation-iteration-count: infinite;
  -webkit-animation-timing-function: linear;
+ animation-name: blink;
+ animation-duration: 1s;
+ animation-iteration-count: infinite;
+ animation-timing-function: linear;
 }
 
 #wrapper.warning #timer.paused {
@@ -46,6 +65,10 @@ body {
  -webkit-animation-duration: 1s;
  -webkit-animation-iteration-count: infinite;
  -webkit-animation-timing-function: linear;
+ animation-name: blink;
+ animation-duration: 1s;
+ animation-iteration-count: infinite;
+ animation-timing-function: linear;
 }
 
 #wrapper.warning #timer.stopped {
