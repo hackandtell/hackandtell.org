@@ -6,9 +6,9 @@ body {
 
 div#body {
     margin: 0 auto;
-    width: 1020px;
+    padding: 0 2em;
+    max-width: 1020px;
     background: url('images/blackampersands.png') left 418px top 79px no-repeat;
-
 }
 
 h1 {
